@@ -8,6 +8,8 @@
 ## Use at 
  * https://query.wikidata.org/sparql
 
+* variable: `{{ q }}`, e.g. `Q28942417`.
+
 ```sparql
 #defaultView:Timeline
 PREFIX wd: <http://wikidata.org/entity/>
@@ -96,8 +98,6 @@ SELECT DISTINCT ?datetime ?description WHERE {
   }
 }
 ```
-
-* variable: `{{ q }}`, e.g. `Q28942417`.
 
 ```mermaid
 graph TD
