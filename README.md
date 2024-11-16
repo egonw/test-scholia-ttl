@@ -97,6 +97,8 @@ SELECT DISTINCT ?datetime ?description WHERE {
 }
 ```
 
+* variable: `{{ q }}`, e.g. `Q28942417`.
+
 ```mermaid
 graph TD
 classDef projected fill:lightgreen;
